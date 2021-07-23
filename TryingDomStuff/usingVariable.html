@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>Add content using DOm</title>
+      
+    </head>
+    <body>
+       <p id="main-text">Words about things...</p>
+       <script>
+           let p = document.getElementById("main-text");
+           p.append("More words about things");
+           console.log(p.innerHTML);
+           let response = window.confirm("String message");
+       </script>
+    </body>
+</html>
